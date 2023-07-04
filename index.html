@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Shop - clone</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">DIGI X SHOP</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <!-- <li><a href="#specs">Specs</a></li>
+                      <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Bring power to your steps</h1>
+                <p>
+                    Invest in quality footwear that speaks volumes about your personality. Choose our brand and experience the perfect fusion of style, comfort, and durability. Step into a world of endless possibilities and embark on your journey with confidence and grace. Get ready to turn heads and leave a lasting impression with our exceptional shoes.
+                </p>
+                <a href="#" class="btn">Read More <i class="fas fa-shopping-cart "></i></a>
+            </div>
+            <img src="/photos/shoese-removebg-preview.png" alt="" />
+        </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner py-5">
+                <h3 class="text-2">Feet with a Beat</h3>
+                <h2 class="text-5 mt-1">Step into Style and Comfort with Our Premium Footwear Collection!</h2>
+                <!-- <p class="mt-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                    repudiandae laboriosam quia, error tempore porro ducimus voluptate
+                    laborum nostrum iure.
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c" id="gallery"> 
+        <div class="gallery">
+            <a href="/photos/shoes1.jpg" class="big">
+                <img src="/photos/shoes1.jpg"alt="" />
+            </a>
+
+            <a href="/photos/Shoes-bg - Copy.jpeg" class="big">
+                <img src="/photos/Shoes-bg - Copy.jpeg" alt="" />
+            </a>
+
+            <a href="/photos/shoes2.jpg" class="big">
+                <img src="/photos/shoes2.jpg" alt="" />
+            </a>
+
+            <a href="/photos/shoes3.jpg" class="big">
+                <img src="/photos/shoes3.jpg"alt="" />
+            </a>
+
+            <a href="/photos/shoes4.jpg" class="big">
+                <img src="/photos/shoes4.jpg"alt="" />
+            </a>
+
+            <a href="/photos/shoes7.jpg" class="big">
+                <img src="/photos/shoes7.jpg"alt="" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+        <div class="container">
+            <div>
+                <h2 class="text-2 mb-1">DIGI X SHOP</h2>
+                <a href="#">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <form class="mt-1">
+                    <div class="email-form">
+                        <span class="form-control-wrap"><input type="email" name="email" id="email" size="40"
+                                class="form-control" placeholder="E-mail" /></span>
+                        <button type="submit" value="Submit" class="form-control submit">GO
+                            <!-- <i class="fas fa-chevron-right"></i> -->
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+
+</html>
